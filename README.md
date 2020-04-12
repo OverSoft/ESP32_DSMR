@@ -1,6 +1,8 @@
 # Dutch smart meter reader with LCD visualization (for ESP32)
 Copyright (c) 2020 Laurens Leemans - OverSoft
 
+![Example photo](example.jpg)
+
 Displays current power usage in kW and shows your current daily usage.  
 Also provides a TCP port for Domoticz to connect to, to log the data.  
 Includes an OTA update function, via HTTP.
