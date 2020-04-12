@@ -1,8 +1,8 @@
 # Dutch smart meter reader with LCD visualization (for ESP32)
 Copyright (c) 2020 Laurens Leemans - OverSoft
 
-Displays current power usage in kW and shows your current daily usage.
-Also provides a TCP port for Domoticz to connect to, to log the data.
+Displays current power usage in kW and shows your current daily usage.  
+Also provides a TCP port for Domoticz to connect to, to log the data.  
 Includes an OTA update function, via HTTP.
 
 The webserver also provides easy access to current usage, curreny daily usage and last received message.
@@ -14,9 +14,9 @@ Domoticz can connect via the "P1 Smart Meter with LAN interface" plugin.
 Just add the plugin, fill in the IP and port (8088).
 
 
-I created this project for use on the Xinyuan TTGO-T
-https://github.com/Xinyuan-LilyGO/TTGO-T-Display
-It's an ESP32 dev-board with a 240x135 LCD attached.
+I created this project for use on the Xinyuan TTGO-T  
+https://github.com/Xinyuan-LilyGO/TTGO-T-Display  
+It's an ESP32 dev-board with a 240x135 LCD attached.  
 
 It should run on any ESP32 with a LCD screen connected over SPI that's supported by the TFT_eSPI.
 If you use an LCD screen with a different resolution, you might need to tweak a lot of positions and the dial JPG.
@@ -41,11 +41,11 @@ If you're having trouble flashing this to an ESP32, set the partition scheme to 
 
 ## Used libraries:
 
-arduino-dmsr by Matthijs Kooijman (parses the smart meter messages)
+arduino-dmsr by Matthijs Kooijman (parses the smart meter messages)  
 https://github.com/matthijskooijman/arduino-dsmr
 
-TFT_eSPI by Bodmer (LCD library to draw things to a LCD screen)
+TFT_eSPI by Bodmer (LCD library to draw things to a LCD screen)  
 https://github.com/Bodmer/TFT_eSPI
 
-TJpg_Decoder by Bodmer (decodes JPGs in program memory)
+TJpg_Decoder by Bodmer (decodes JPGs in program memory)  
 https://github.com/Bodmer/TJpg_Decoder
